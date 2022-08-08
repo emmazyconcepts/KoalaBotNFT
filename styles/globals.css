@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"); */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    "Mochiy Pop One";
+}
+
+.button {
+  position: relative;
+  background-color: black;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  font-size: 1.9em;
+  transform: none;
+  cursor: pointer;
+  font-family: "Mochiy Pop One";
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: calc(100% + 20px);
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: 1s;
+}
+
+.button:before {
+  content: "";
+  height: calc(100% + 20px);
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: -2px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: 1s;
+}
+
+.button:hover:before {
+  transform: rotateY(180deg);
+}
+
+.button:hover:after {
+  transform: rotateX(180deg);
+}
+
+.img-wrapper {
+  display: none;
+  height: 70vh;
+}
+.scroll-left {
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+.scroll-left p {
+  margin-top: 36px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 15s linear infinite;
+  -webkit-animation: scroll-left 15s linear infinite;
+  animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-left {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%);
+  }
+}
+
+section {
+  background-image: url("../../koala/public/image/hehe.svg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 500px) {
+  section {
+    width: 425px;
+  }
+}
+
+.head {
+  background-image: url("../../koala/public/image/mint.svg");
+  height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fontbig {
+  font-family: "Rubik Moonrocks";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 234px;
+}
+
+@media screen and (max-width: 900px) {
+  .fontbig {
+    font-size: 56px;
+  }
+}
+
+.lolo {
+  margin-top: -140px;
+}
+@media screen and (max-width: 770px) {
+  .lolo {
+    margin-top: 0px;
+  }
+}
+.nftu {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  letter-spacing: 0.05em;
+}
+.nftd {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+li {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.font {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 38px;
+}
+.imagehead {
+  top: 130px !important;
+}
+
+.team1 {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+}
+
+.team2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.imagehead2 {
+  top: 210px !important;
+}
+.text1 {
+  margin-top: 205px !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #151515;
+  }
+}
