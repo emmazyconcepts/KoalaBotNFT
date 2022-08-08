@@ -1,14 +1,8 @@
 import React, { useEffect } from "react";
 import "tailwindcss/tailwind.css";
-import $ from "jquery";
 import Image from "next/image";
-import vector from "../../koala/public/image/Vector.png";
-import topbg from "../../koala/public/image/NFT-1.png";
-import nft from "../../koala/public/image/NFT.png";
-import nft1 from "../../koala/public/image/NFT-1.png";
-import nft2 from "../../koala/public/image/NFT-2.png";
+
 import text1 from "../../koala/public/image/text1.svg";
-import nftmain from "../../koala/public/image/nftm.png";
 
 import Head from "next/head";
 
