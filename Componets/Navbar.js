@@ -61,7 +61,7 @@ function Navbar() {
                   />
                 </svg>
                 <svg
-                  width="230"
+                  width="190"
                   height="20"
                   viewBox="0 0 230 20"
                   fill="none"
@@ -292,7 +292,7 @@ function Navbar() {
       </div>
       <div className=" mt-[8rem] block justify-between p-10 lg:flex ">
         <Image src={text} className="w-full h-full" />
-        <div class="flex space-x-2 space-y-2 w-[340px] flex-wrap justify-center items-baseline bg-black h-[4.7rem] rounded-full mt-28">
+        <div class="flex space-x-2 space-y-2 testtest flex-wrap justify-center items-baseline bg-black h-[4.7rem] rounded-full mt-28">
           <button class="rounded-full font px-4 py-2 border-2 border-black text-gray-200 hover:bg-gray-200 hover:text-gray-900 duration-300">
             TWITTER
           </button>

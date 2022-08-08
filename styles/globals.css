@@ -122,9 +122,29 @@ section {
   background-size: cover;
   background-attachment: fixed;
 }
-@media screen and (max-width: 500px) {
+
+/* @media screen and (max-width: 500px) {
   section {
     width: 425px;
+  }
+} */
+
+.testtest {
+  width: 340px;
+  max-width: calc(100% - 31px);
+}
+
+@media screen and (max-width: 500px) {
+  .testtest {
+    width: 340px;
+    max-width: calc(100% - -9px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testtest {
+    width: 340px;
+    max-width: calc(100% - -20px);
   }
 }
 
@@ -167,18 +187,60 @@ a {
   font-size: 64px;
   line-height: 93px;
   letter-spacing: 0.05em;
+  width: 70%;
+
+  max-width: calc(100% - -9px);
 }
+
 .nftd {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  width: 70%;
+  max-width: calc(100% - -9px);
+}
+
+.nft {
+  display: flex;
+}
+@media screen and (max-width: 1100px) {
+  .nft {
+    display: block;
+    justify-content: center;
+  }
+}
+
+.slideoo {
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  .slideoo {
+    max-width: calc(100% - -9px);
+  }
+}
+
+.butt {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 770px) {
+  .butt {
+    margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .butt {
+    margin-bottom: 5rem;
+  }
 }
 
 .logo {
   margin-top: 20px;
   margin-left: 10px;
+  max-width: calc(100% - -9px);
 }
 
 li {

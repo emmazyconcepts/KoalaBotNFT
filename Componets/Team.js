@@ -11,7 +11,7 @@ function Team() {
     <div className=" bg-[#151515]">
       <div className="  justify-center sm:flex      ">
         {" "}
-        <div className=" w-[425px] mt-28  md:w-[514px] p-8 md:p-0   ">
+        {/* <div className=" w-[425px] mt-28  md:w-[514px] p-8 md:p-0   ">
           <h1 className="team1 ">Meet the Team</h1>{" "}
           <h2 className="team2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper
@@ -20,7 +20,7 @@ function Team() {
             sagittis habitant. Dignissim ut pellentesque aliquam turpis turpis
             pretium fringilla sit donec.
           </h2>
-        </div>{" "}
+        </div>{" "} */}
         <div className=" -mt-0 md:-mt-36">
           <Image src={t1} className="w-full h-full " />
         </div>

@@ -36,7 +36,7 @@ function Nft() {
   }
 
   return (
-    <div className="bg-[#62EA10] w-[425px] sm:w-auto">
+    <div className="bg-[#62EA10]  sm:w-auto">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,8 +45,8 @@ function Nft() {
           rel="stylesheet"
         />
       </Head>
-      <div className="  pt-36 md:ml-0  md:flex  md:space-x-16  md:px-44 ">
-        <div class="slideshow w-full mb-16 p-10 md:p-0 md:mb-0">
+      <div className=" nft  pt-36   md:ml-52   md:space-x-16  md:px-44 ">
+        <div class="slideshow slideoo p-10 md:p-0 butt">
           <div class="img-wrapper">
             {" "}
             <Image src={nft1} className="w-full h-full" />
@@ -91,8 +91,7 @@ function Nft() {
             <div class="dot"></div>
           </div>
         </div>
-        <div class="bottom-1"></div>
-        <div className="  -ml-28 sm:w-[66rem] ">
+        <div className="  -ml-28  ">
           <h1 className="nftu text-black text-left -mt-64 ml-32 md:ml-0 md:-mt-0">
             Mint Em NFTs
           </h1>{" "}
