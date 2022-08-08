@@ -1,8 +1,8 @@
 import React from "react";
-import t1 from "../../koala/public/image/Teams.png";
-import t2 from "../../koala/public/image/t2.png";
-import t3 from "../../koala/public/image/t3.png";
-import t4 from "../../koala/public/image/t4.png";
+import t1 from "../public/image/Teams.png";
+import t2 from "../public/image/t2.png";
+import t3 from "../public/image/t3.png";
+import t4 from "../public/image/t4.png";
 
 import Image from "next/image";
 

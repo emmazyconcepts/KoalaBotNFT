@@ -1,5 +1,5 @@
 import React from "react";
-import t4 from "../../koala/public/image/Road.svg";
+import t4 from "../public/image/Road.svg";
 
 import Image from "next/image";
 
