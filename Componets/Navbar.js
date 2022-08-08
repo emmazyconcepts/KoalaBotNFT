@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
 
-import text from "../../koala/public/image/text1.svg";
+import text from "../public/image/text1.svg";
 
 import Head from "next/head";
 
