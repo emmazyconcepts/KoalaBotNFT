@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
 
-import text1 from "../../koala/public/image/text1.svg";
+import text from "../../koala/public/image/text1.svg";
 
 import Head from "next/head";
 
@@ -291,7 +291,7 @@ function Navbar() {
         </div>
       </div>
       <div className=" mt-[8rem] block justify-between p-10 lg:flex ">
-        <Image src={text1} className="w-full h-full" />
+        <Image src={text} className="w-full h-full" />
         <div class="flex space-x-2 space-y-2 w-[340px] flex-wrap justify-center items-baseline bg-black h-[4.7rem] rounded-full mt-28">
           <button class="rounded-full font px-4 py-2 border-2 border-black text-gray-200 hover:bg-gray-200 hover:text-gray-900 duration-300">
             TWITTER
