@@ -114,7 +114,7 @@ body {
 }
 
 section {
-  background-image: url("../../koala/public/image/hehe.svg");
+  background-image: url("../public/image/hehe.svg");
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -129,7 +129,7 @@ section {
 }
 
 .head {
-  background-image: url("../../koala/public/image/mint.svg");
+  background-image: url("../public/image/mint.svg");
   height: 100vh;
   width: 100%;
 }
