@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import nft1 from "../../koala/public/image/1.png";
-import nft2 from "../../koala/public/image/2.png";
-import nft3 from "../../koala/public/image/3.png";
-import nft4 from "../../koala/public/image/4.png";
-import nft5 from "../../koala/public/image/5.png";
-import nft6 from "../../koala/public/image/6.png";
-import nft7 from "../../koala/public/image/7.png";
-import nft8 from "../../koala/public/image/8.png";
-import nft9 from "../../koala/public/image/9.png";
+import nft1 from "../public/image/1.png";
+import nft2 from "../public/image/2.png";
+import nft3 from "../public/image/3.png";
+import nft4 from "../public/image/4.png";
+import nft5 from "../public/image/5.png";
+import nft6 from "../public/image/6.png";
+import nft7 from "../public/image/7.png";
+import nft8 from "../public/image/8.png";
+import nft9 from "../public/image/9.png";
 import Head from "next/head";
 
 function Nft() {
