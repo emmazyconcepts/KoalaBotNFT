@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Roadmap() {
   return (
-    <div className="bg-[#62EA10] mt-36">
+    <div id="ROADMAP" className="bg-[#62EA10] mt-36">
       <div className="w hidden sm:flex ">
         <Image src={t4} className="w-full h-full" />
       </div>

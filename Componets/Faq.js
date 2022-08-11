@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Faq() {
   return (
-    <div className="bg-black">
+    <div id="FAQs" className="bg-black">
       <div class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">

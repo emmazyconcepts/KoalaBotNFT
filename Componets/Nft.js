@@ -32,7 +32,7 @@ function Nft() {
       reset();
       imgWrapper[i].style.display = "block";
       i++;
-      setTimeout(autoSlide, 2000);
+      setTimeout(autoSlide, 500);
     }
     autoSlide();
   }
@@ -46,7 +46,7 @@ function Nft() {
   };
 
   return (
-    <div className="bg-[#62EA10]  sm:w-auto">
+    <div className="bg-[#62EA10]  sm:w-auto" id="COLLECTIONS">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -111,7 +111,7 @@ function Nft() {
           <h1 className="nftu text-black text-left -mt-64 ml-32 md:ml-0 md:-mt-0">
             Mint Em NFTs
           </h1>{" "}
-          <h2 className="nftd text-black mt-14 text-left  ml-32 sm:ml-0">
+          <h2 className="nftd text-black mt-14 text-left  ml-32 sm:ml-0 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper
             pharetra, ullamcorper arcu orci non luctus est aliquet. In tortor
             magna ac egestas sagittis, sed massa. A tortor, aliquet in purus est
