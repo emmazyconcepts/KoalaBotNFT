@@ -46,7 +46,7 @@ function Nft() {
   };
 
   return (
-    <div className="bg-[#62EA10]  sm:w-auto" id="COLLECTIONS">
+    <div className="bg-[#08A53F]  sm:w-auto" id="COLLECTIONS">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
