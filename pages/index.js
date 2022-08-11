@@ -6,6 +6,8 @@ import Team from "../Componets/Team";
 import Roadmap from "../Componets/Roadmap";
 
 import styles from "../styles/Home.module.css";
+import Faq from "../Componets/Faq";
+import Footer from "../Componets/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Nft />
       <Team />
       <Roadmap />
+      <Faq />
+      <Footer />
     </div>
   );
 }

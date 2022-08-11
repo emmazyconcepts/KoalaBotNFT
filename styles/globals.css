@@ -129,6 +129,22 @@ section {
   }
 } */
 
+footer {
+  background-image: url("../public/image/Footer.svg");
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 568px) {
+  footer {
+    height: 57vh;
+  }
+}
+
 .testtest {
   width: 340px;
   max-width: calc(100% - 31px);
@@ -174,12 +190,15 @@ a {
 
 .lolo {
   margin-top: -140px;
+  width: 270px;
 }
 @media screen and (max-width: 770px) {
   .lolo {
     margin-top: 0px;
+    max-width: calc(100% - 25px);
   }
 }
+
 .nftu {
   font-family: "Mochiy Pop One";
   font-style: normal;
@@ -257,6 +276,28 @@ li {
   font-weight: 400;
   font-size: 12px;
   line-height: 38px;
+}
+
+.font2 {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+span {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+summary {
+  font-family: "Mochiy Pop One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .imagehead {
   top: 130px !important;

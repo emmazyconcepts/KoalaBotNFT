@@ -10,6 +10,8 @@ import nft7 from "../public/image/7.png";
 import nft8 from "../public/image/8.png";
 import nft9 from "../public/image/9.png";
 import Head from "next/head";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 function Nft() {
   if (typeof window !== "undefined") {
@@ -35,6 +37,14 @@ function Nft() {
     autoSlide();
   }
 
+  const scrollRef = useRef(null);
+
+  const config = {
+    type: "spring",
+    damping: 20,
+    stiffness: 100,
+  };
+
   return (
     <div className="bg-[#62EA10]  sm:w-auto">
       <Head>
@@ -45,7 +55,13 @@ function Nft() {
           rel="stylesheet"
         />
       </Head>
-      <div className=" nft  pt-36   md:ml-52   md:space-x-16  md:px-44 ">
+      <motion.div
+        transition={config}
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ x: 0, opacity: 0 }}
+        className=" nft  pt-36   md:ml-52   md:space-x-16  md:px-44 "
+      >
         <div class="slideshow slideoo p-10 md:p-0 butt">
           <div class="img-wrapper">
             {" "}
@@ -106,7 +122,7 @@ function Nft() {
           </h2>
           <button class="button mt-32  ml-32 sm:ml-0  ">Buy Collection </button>
         </div>
-      </div>
+      </motion.div>
       <div class="scroll-left">
         <p className="fontbig  ">KOALA COLLECTIONS </p>
       </div>
